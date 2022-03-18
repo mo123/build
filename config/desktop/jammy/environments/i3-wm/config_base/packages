@@ -44,7 +44,6 @@ fonts-ubuntu-console
 foomatic-db-compressed-ppds
 gdebi
 ghostscript-x
-gir1.2-appindicator3-0.1
 gnome-bluetooth
 gnome-font-viewer
 gnome-orca
@@ -69,7 +68,6 @@ keyutils
 language-pack-en
 laptop-detect
 libanyevent-i3-perl
-libappindicator3-1
 libatk-adaptor
 libev4
 libfont-afm-perl
@@ -131,7 +129,6 @@ thunar
 totem
 totem-common
 totem-plugins
-ttf-ubuntu-font-family
 ubuntu-docs
 ubuntu-drivers-common
 ubuntu-wallpapers
