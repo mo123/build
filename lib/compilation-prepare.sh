@@ -654,7 +654,7 @@ compilation_prepare()
 
 		display_alert "Adding" "Wireless drivers for Realtek 8723DU chipsets ${rtl8723duver}" "info"
 
-		fetch_from_repo "$GITHUB_SOURCE/lwfinger/rtl8723du" "rtl8723du" "${rtl8723duver}" "yes"
+		fetch_from_repo "$GITHUB_SOURCE/mo123/rtl8723du" "rtl8723du" "${rtl8723duver}" "yes"
 		cd "$kerneldir" || exit
 		rm -rf $kerneldir/drivers/net/wireless/rtl8723du
 		mkdir -p $kerneldir/drivers/net/wireless/rtl8723du/
